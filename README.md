@@ -11,7 +11,7 @@ How to use:
 
 Test code: 
 
-````javascript
+````actionscript3
 scrolltext_mc.scrollbar.setScrollbar({
   content: the clip that needs to be scrolled,
   ruler: the ruler of the scrollbar (scrollbar is usually a clip itself to maintain reusability),
