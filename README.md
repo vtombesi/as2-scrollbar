@@ -11,15 +11,17 @@ How to use:
 
 Test code: 
 
-  scrolltext_mc.scrollbar.setScrollbar({
-    content: the clip that needs to be scrolled,
-    ruler: the ruler of the scrollbar (scrollbar is usually a clip itself to maintain reusability),
-    background: the background of the scrollbar,
-    mask: the mask clip used to mask content,
-    scrollFactor: how much you scroll fast,
-    blurred: if the scroll effect needs to be vertically blurred,
-    blurFactor: how much it is blurred,
-    pixelhinting: precision to the pixel, 
-    cached: if the content can be cached (if static)
-  });
-  scrolltext_mc.scrollbar.start();
+````javascript
+scrolltext_mc.scrollbar.setScrollbar({
+  content: the clip that needs to be scrolled,
+  ruler: the ruler of the scrollbar (scrollbar is usually a clip itself to maintain reusability),
+  background: the background of the scrollbar,
+  mask: the mask clip used to mask content,
+  scrollFactor: how much you scroll fast,
+  blurred: if the scroll effect needs to be vertically blurred,
+  blurFactor: how much it is blurred,
+  pixelhinting: precision to the pixel, 
+  cached: if the content can be cached (if static)
+});
+scrolltext_mc.scrollbar.start();
+````
